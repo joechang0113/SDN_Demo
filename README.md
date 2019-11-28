@@ -1,9 +1,10 @@
 ## SDN_Network Slicing
 
 ### Device:
-* RT188T - SDN Switch
-* ThinkPad - RYU Controller
-* AP - ASUS RT-AC68U
+* Switch：RT188T
+* Controller：ThinkPad
+* AP：ASUS RT-AC68U
+* OpenFlow：OpenFlow 1.3
 
 ## Run File
 
@@ -15,7 +16,7 @@ ryu-manager --verbose ryu.app.sdn_5G_107_Final_Project.py
 
 >`sdn_5G_107_Final_Project.py` can change the `.py` file what you want to run
 
-## Open Traffic Monitoring
+## Traffic Monitoring
 
 Go to folder "computer/home/pmcn/Document" and open "project" with VSCode and start with in terminal
 ```bash
